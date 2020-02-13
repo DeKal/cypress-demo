@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.qa.todo.ToDoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-26T15:22:31" hostname="Phats-MacBook-Pro.local" time="72.076">
+  <properties/>
+  <testcase name="todoAddnewItemTest" classname="com.qa.todo.ToDoTest" time="72.076"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

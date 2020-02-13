@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://localhost:9999",
+  "integrationFolder": "./integration",
+  "supportFile": "./support",
+  "fixturesFolder": "./fixtures",
+  "pluginsFile": "./plugins",
+  "videosFolder": "./videos",
+  "screenshotsFolder": "./screenshots",
+  "requestTimeout": 10000,
+  "responseTimeout": 60000,
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 120000
+}

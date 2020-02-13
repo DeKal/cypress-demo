@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'practice.selenium'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-3'
+    implementation 'org.testng:testng:7.0.0'
+}
+
+test { //this is the gradle task to be executed
+    useTestNG() { //Tells Gradle to use TestNG
+        useDefaultListeners = true // Tells TestNG to execute its default reporting structurel
+    }
+}

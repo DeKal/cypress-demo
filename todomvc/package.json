@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "cypress-example-todomvc",
+  "version": "0.0.0-development",
+  "description": "This repo contains an example React App, with the tests written in Cypress",
+  "scripts": {
+    "start": "http-server -p 8888 -c-1",
+    "start:ci": "http-server -p 8888 -c-1 --silent",
+    "test": "npm run start & cypress run",
+    "effective:circle:config": "circleci config process circle.yml | sed /^#/d",
+    "types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "director": "1.2.8",
+    "http-server": "0.11.1",
+    "react": "0.13.3",
+    "todomvc-app-css": "2.3.0",
+    "todomvc-common": "cypress-io/todomvc-common#88b7c6359ad4a5097312d8b2a21dd539ce9f4446"
+  },
+  "devDependencies": {
+    "axe-core": "3.3.2",
+    "eslint": "6.0.1",
+    "eslint-plugin-cypress-dev": "3.0.0",
+    "eslint-plugin-mocha": "5.3.0",
+    "npm-run-all": "4.1.5",
+    "typescript": "3.5.2"
+  }
+}
