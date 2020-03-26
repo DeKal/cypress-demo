@@ -20,7 +20,7 @@ public class ToDoTest {
     @BeforeTest
     public void setup() {
         //setting the driver executable
-        System.setProperty("webdriver.chrome.driver", "/Users/dekal//drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
 
         //Initiating your chromedriver
         driver = new ChromeDriver();
